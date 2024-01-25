@@ -9,24 +9,24 @@
 
     <link rel="website icon" type=" icon" href="logo.jpg">
     <style>
-        
-.headline marquee{
-    font-size: 18px;
-    position: relative;
-    height: 5vh;
-    width: 98%;
-    left:2%;
-    color: gold;
-    font-style: italic;
-}
-.headline:hover{
-    font-size: 22px;
-    background-color: black;
-    color: white;
-    font-weight: bold;
-    font-style: italic;
-    
-}
+        .headline marquee {
+            font-size: 18px;
+            position: relative;
+            height: 5vh;
+            width: 98%;
+            left: 2%;
+            color: gold;
+            font-style: italic;
+        }
+
+        .headline:hover {
+            font-size: 22px;
+            background-color: black;
+            color: white;
+            font-weight: bold;
+            font-style: italic;
+
+        }
 
         * {
             margin: 0;
@@ -58,8 +58,8 @@
             padding: 2px;
 
             height: 6vh;
-text-align: center;
-            
+            text-align: center;
+
             background-color: #D3EDD7;
         }
 
@@ -112,11 +112,11 @@ text-align: center;
             left: 1%;
 
         }
-        
 
 
-        
- 
+
+
+
         .nav {
             background-color: #034255;
             padding-top: 30px;
@@ -228,9 +228,10 @@ text-align: center;
         .f {
             position: relative;
             right: 77px;
-        
-}
-@media only screen and (max-width: 768px) {
+
+        }
+
+        @media only screen and (max-width: 768px) {
             nav ul {
                 display: none;
                 flex-direction: column;
@@ -264,103 +265,108 @@ text-align: center;
 
         /* Your existing styles... */
 
-footer {
-    background-color: #034255;
-    padding-top: 4%;
-    height: fit-content;
-}
+        footer {
+            background-color: #034255;
+            padding-top: 4%;
+            height: fit-content;
+        }
 
-main {
-    display: flex;
-    padding: 2%;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    color: white;
-}
+        main {
+            display: flex;
+            padding: 2%;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            color: white;
+        }
 
-.main-container {
-    width: 100%;
-}
+        .main-container {
+            width: 100%;
+        }
 
-.b {
+        .b {
             color: #FFF603;
-    font-weight: bold;
+            font-weight: bold;
 
 
         }
-.l,
-.k,
-.g,
-.h {
-    width: 100%;
-    
-    border-right: 2px dashed white;
-    text-align: center;
-    margin-bottom: 20px;
-}
 
-.l ul,
-.k ul,
-.g ul,
-.h ul {
-    padding: 0;
-}
+        .l,
+        .k,
+        .g,
+        .h {
+            width: 100%;
 
-.l a,
-.k a,
-.g a,
-.h a {
-    color: white;
-    text-decoration: none;
-}
+            border-right: 2px dashed white;
+            text-align: center;
+            margin-bottom: 20px;
+        }
 
-.l a:hover,
-.k a:hover,
-.g a:hover,
-.h a:hover {
-    color: #FFF603;
-}
+        .l ul,
+        .k ul,
+        .g ul,
+        .h ul {
+            padding: 0;
+        }
 
-.dis {
-    padding: 8px;
-    line-height: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #BFC8CB;
-    font-size: 15px;
-    text-align: center;
-    background-color: #032530;
-    width: 100%;
-    border-radius: 20px;
-    margin-top: 20px;
-}
+        .l a,
+        .k a,
+        .g a,
+        .h a {
+            color: white;
+            text-decoration: none;
+        }
 
-/* Responsive adjustments */
-@media only screen and (min-width: 768px) {
-    main {
-        justify-content: space-between;
-    }
+        .l a:hover,
+        .k a:hover,
+        .g a:hover,
+        .h a:hover {
+            color: #FFF603;
+        }
 
-    .l, .k, .g, .h {
-        
-    border-bottom: 2px dashed white;
-        width: 22%;
-        text-align: left;
-    }
-}
+        .dis {
+            padding: 8px;
+            line-height: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #BFC8CB;
+            font-size: 15px;
+            text-align: center;
+            background-color: #032530;
+            width: 100%;
+            border-radius: 20px;
+            margin-top: 20px;
+        }
 
-@media only screen and (max-width: 767px) {
-    .main-container {
-        width: 90%;
-        margin: 0 auto;
-    }
+        /* Responsive adjustments */
+        @media only screen and (min-width: 768px) {
+            main {
+                justify-content: space-between;
+            }
 
-    .l, .k, .g, .h {
-        border-bottom: 2px dashed white;
-        width: 100%;
-    }
-}
+            .l,
+            .k,
+            .g,
+            .h {
 
+                border-bottom: 2px dashed white;
+                width: 22%;
+                text-align: left;
+            }
+        }
 
+        @media only screen and (max-width: 767px) {
+            .main-container {
+                width: 90%;
+                margin: 0 auto;
+            }
+
+            .l,
+            .k,
+            .g,
+            .h {
+                border-bottom: 2px dashed white;
+                width: 100%;
+            }
+        }
     </style>
 </head>
 
@@ -449,7 +455,9 @@ main {
         </section>
 
         <div class="headline">
-            <marquee behavior="left" direction="right">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga voluptas aut itaque est pariatur expedita, odio quae quas qui accusantium quibusdam iure suscipit doloremque optio doloribus voluptatibus accusamus harum vel!</marquee>
+            <marquee behavior="left" direction="right">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga
+                voluptas aut itaque est pariatur expedita, odio quae quas qui accusantium quibusdam iure suscipit
+                doloremque optio doloribus voluptatibus accusamus harum vel!</marquee>
         </div>
         <div class="container">
             <h4 class="h4" style="background-color: #EEEEEE; color: #C6070F; border-bottom: 2px solid #032530
@@ -521,7 +529,7 @@ main {
                     <li><a href="#">Laborarty & Workshop</a></li>
                 </ul>
             </div>
-             <div class="dis">
+            <div class="dis">
                 <p class="p3">Disclaimer: This site is designed & developed by Prince Soni, Satna (MP). <br>
                     Best viewed in IE 6.0 and above with monitor resolution 1024x768
                 </p>
@@ -529,7 +537,7 @@ main {
 
         </main>
 
-       
+
 
 
 
